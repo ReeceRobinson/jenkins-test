@@ -1,1 +1,4 @@
-echo 'Hello Jenkins'
+#!groovy
+stage('build') {
+    echo 'Hello Jenkins 123'
+}
