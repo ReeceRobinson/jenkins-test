@@ -1,10 +1,10 @@
 #!groovy
 node {
     stage('Build') {
-        echo 'Building....'
+        echo 'Building Src....'
     }
     stage('Test') {
-        echo 'Building....'
+        echo 'Building Test....'
     }
     stage('Deploy') {
         echo 'Deploying....'
