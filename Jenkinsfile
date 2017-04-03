@@ -1,5 +1,6 @@
 #!groovy
 node {
+    checkout scm
     stage('Build') {
         echo 'Building Src....'
     }
